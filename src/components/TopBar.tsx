@@ -63,13 +63,13 @@ export function TopBar({
         >
           导出 MD
         </button>
-        {/* <button
+        <button
           type="button"
           className="rounded-md border border-white/20 px-3 py-1.5 text-xs text-white/85 transition hover:bg-white/10 md:text-sm"
           onClick={() => exportPdfViaPrint()}
         >
           导出 PDF
-        </button> */}
+        </button>
         <button
           type="button"
           className="rounded-md border border-red-400/40 px-3 py-1.5 text-xs text-red-300 transition hover:bg-red-500/10 md:text-sm"
